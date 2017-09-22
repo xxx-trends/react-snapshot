@@ -1,9 +1,9 @@
 {
-  "name": "react-snapshot",
+  "name": "@xxx-trends/react-snapshot",
   "version": "1.2.0",
-  "description": "",
+  "description": "This is the fork of geelen/react-snapshot",
   "main": "lib/index.js",
-  "repository": "geelen/react-snapshot",
+  "repository": "xxx-trends/react-snapshot",
   "bin": {
     "react-snapshot": "./bin/react-snapshot.js"
   },
