@@ -36,7 +36,7 @@ export default () => {
       if (urlPath.endsWith('/')) {
         filename = `${urlPath}index.html`
       } else if (path.extname(urlPath) == '') {
-        filename = `${urlPath}.html`
+        filename = `${urlPath}/index.html`
       }
       console.log(`✏️   Saving ${urlPath} as ${filename}`)
       writer.write(filename, html)
